@@ -17,11 +17,11 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const  DISCORD_BOT_TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 
-if (!BOT_TOKEN || !WEBHOOK_URL) {
-  console.error("Missing BOT_TOKEN or WEBHOOK_URL");
+if (! DISCORD_BOT_TOKEN || !WEBHOOK_URL) {
+  console.error("Missing  DISCORD_BOT_TOKEN or WEBHOOK_URL");
   process.exit(1);
 }
 
