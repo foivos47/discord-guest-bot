@@ -1,14 +1,13 @@
 {
   "name": "guest-assignment-discord-bot",
   "version": "1.0.0",
-  "description": "Discord bot that forwards guest mentions to the assignment webhook",
+  "description": "Discord bot forwarding messages to Supabase webhook",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "express": "^4.18.2",
-    "node-fetch": "^2.6.7"
+    "express": "^4.18.2"
   }
 }
